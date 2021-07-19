@@ -1,0 +1,2 @@
+rootProject.name = "rvEx"
+include ':app'

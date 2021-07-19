@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/introTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:text="성격 유형 조회"
+        android:textSize="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/introTextView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:layout_margin="4dp"
+                    android:onClick="clickTypeButton"
+                    android:text="ISTJ" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:layout_margin="4dp"
+                    android:onClick="clickTypeButton"
+                    android:text="ISFJ" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:layout_margin="4dp"
+                    android:onClick="clickTypeButton"
+                    android:text="INFJ" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:layout_margin="4dp"
+                    android:onClick="clickTypeButton"
+                    android:text="INTJ" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:layout_margin="4dp"
+                    android:onClick="clickTypeButton"
+                    android:text="ISTP" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:layout_margin="4dp"
+                    android:onClick="clickTypeButton"
+                    android:text="ISFP" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:layout_margin="4dp"
+                    android:onClick="clickTypeButton"
+                    android:text="INFP" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:layout_margin="4dp"
+                    android:onClick="clickTypeButton"
+                    android:text="INTP" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:layout_margin="4dp"
+                    android:onClick="clickTypeButton"
+                    android:text="ESTP" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:layout_margin="4dp"
+                    android:onClick="clickTypeButton"
+                    android:text="ESFP" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:layout_margin="4dp"
+                    android:onClick="clickTypeButton"
+                    android:text="ENFP" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:layout_margin="4dp"
+                    android:onClick="clickTypeButton"
+                    android:text="ENTP" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:layout_margin="4dp"
+                    android:onClick="clickTypeButton"
+                    android:text="ESTJ" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:layout_margin="4dp"
+                    android:onClick="clickTypeButton"
+                    android:text="ESFJ" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:layout_margin="4dp"
+                    android:onClick="clickTypeButton"
+                    android:text="ENFJ" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:layout_margin="4dp"
+                    android:onClick="clickTypeButton"
+                    android:text="ENTJ" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
