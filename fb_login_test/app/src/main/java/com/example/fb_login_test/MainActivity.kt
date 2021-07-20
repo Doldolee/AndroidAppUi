@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity() {
 
 
         auth = Firebase.auth
+
         val btn = findViewById<Button>(R.id.noEmailLoginBtn)
         btn.setOnClickListener{
             auth.signInAnonymously()
